@@ -1,0 +1,191 @@
+body,
+html {
+  font-family: "Fira Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #2d9961;
+}
+.content-wrapper {
+  padding-top: 0px;
+  max-width: 610px;
+  padding: 0 20px;
+  margin: 0 auto;
+  color: white;
+}
+h1 {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+p,
+li,
+a {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+}
+a {
+  color: rgba(255, 255, 255, 0.8);
+}
+a:hover {
+  color: #ffffff;
+}
+strong {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+p {
+  margin: 0 0 25px 0;
+}
+ul {
+  margin: 15px 0 30px 0;
+  padding-left: 0;
+}
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+}
+img.hero {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin: 0 0 0 0;
+  position: relative;
+  left: -46px;
+}
+.button {
+  background: white;
+  color: #2d9961;
+  padding: 9px 16px 7px 16px;
+  box-shadow: 0px 2px 0px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 18px;
+}
+.button strong {
+  color: inherit;
+}
+.button:hover {
+  opacity: .9;
+  color: #2d9961;
+}
+.button:active {
+  position: relative;
+  top: 2px;
+  box-shadow: none;
+  opacity: 1;
+}
+.animation-example {
+  animation: example 0.4s ease-out infinite;
+}
+@keyframes example {
+  0% {
+    transform: scale(1.5);
+    opacity: .5;
+  }
+  50% {
+    transform: scale(0.7);
+    opacity: .5;
+  }
+  100% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+}
+footer {
+  background: #47AD66;
+  margin-top: 80px;
+}
+footer .content-wrapper {
+  padding: 40px 0 40px 0;
+  width: 964px !important;
+  max-width: 964px;
+  margin: 0 auto;
+  position: relative;
+  color: white;
+  overflow: auto;
+  font-size: 15px;
+}
+footer .social-links {
+  list-style-type: none;
+  margin: 0 0 32px 0;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+footer .social-links li {
+  line-height: 15px;
+  padding: 0;
+  margin: 0 15px;
+}
+footer .social-links li a {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+}
+footer .social-links .icon {
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  top: -4px;
+  left: -2px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+footer .social-links .email .icon {
+  background-image: url(images/footer-icon-email.svg);
+}
+footer .social-links .help .icon {
+  background-image: url(images/footer-icon-help.svg);
+}
+footer .social-links .twitter .icon {
+  background-image: url(images/footer-icon-twitter.svg);
+}
+footer .social-links .github .icon {
+  background-image: url(images/footer-icon-github.svg);
+}
+footer .social-links .terms .icon {
+  background-image: url(images/footer-icon-terms.svg);
+  top: -5px;
+}
+footer .social-links .privacy .icon {
+  background-image: url(images/footer-icon-privacy.svg);
+  top: -5px;
+}
+footer .social-links a {
+  opacity: .7;
+  color: white;
+  text-decoration: none;
+}
+footer .social-links a:hover {
+  opacity: 1;
+}
+footer .project-info {
+  padding: 18px 20px;
+  width: 610px;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 4px;
+  line-height: 22px;
+}
+footer .project-info .mozilla-logo {
+  position: absolute;
+  bottom: 24px;
+  left: 20px;
+}
+footer .project-info .mozilla-logo img {
+  display: block;
+  width: 100px;
+}
+footer .project-info .thimble-context {
+  margin: 0 0 0 122px;
+  padding: 0 0 0 20px;
+  border-left: solid 2px #2E9961;
+}
+footer .project-info .thimble-context a {
+  color: white;
+  text-decoration: none;
+}
+footer .project-info .thimble-context a:hover {
+  text-decoration: underline;
+}
