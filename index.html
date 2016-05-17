@@ -1,0 +1,78 @@
+<html>
+  <head>
+    <link rel="stylesheet/less" href="style.less" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Fira+Sans:100,300,400,400italic,500,500italic,700' rel='stylesheet' type='text/css'>
+
+    <script src="app.js" type="text/javascript" charset="utf-8"></script>
+    <script>
+      less = {
+        env: "development",
+        async: false,
+        fileAsync: false,
+        poll: 1000,
+        functions: {},
+        dumpLineNumbers: "comments",
+        relativeUrls: false,
+        rootpath: ":/a.com/"
+      };
+    </script>
+    <script src="less.js"></script>
+    <meta name="viewport" content="width=320, user-scalable=no">
+  </head>
+
+  <body>
+
+
+    <div class="content-wrapper">
+      <img class="hero" src="images/bye2.png"/>
+
+      <h1>Hooray! There's a new Thimble!</h1>
+      <p>
+        We've been hard at work building the new Thimble, and it's finally ready, so we're shutting down the old version.
+        Check out our <a href="https://blog.webmaker.org/introducing-the-new-thimble-an-educational-code-editor-for-teaching-and-learning-the-web">blog post</a> to learn all about it.
+      </p>
+
+      <h2>Your old projects aren't lost!</h2>
+
+      <p>
+        When you sign in to the new Thimble, you'll find them in the <strong>Your Projects</strong> section in the dropdown menu. To make them available for other people to see, you'll have to publish them again.
+      </p>
+      <!-- <ul>
+        <li>It's better than the old one!</li>
+        <li>Your old Thimble projects are still there!</li>
+        <li>Go on, try it!</li>
+      </ul> -->
+
+      <a href="https://thimble.mozilla.org" class="button">
+        Try it at <strong>thimble.mozilla.org</strong>
+      </a>
+
+
+      <p>
+
+      </p>
+
+    </div>
+
+
+    <footer>
+      <div class="content-wrapper">
+        <ul class="social-links">
+          <li><a class="email" href="mailto:thimble@mozillafoundation.org"><span class="icon"></span>Email us</a></li>
+          <li><a class="twitter" href="https://twitter.com/mozteach"><span class="icon"></span>Talk to us on Twitter</a></li>
+          <li><a title="{{ gettext("readTheDocs") }}" class="help" href="https://support.mozilla.org/en/products/webmaker/thimble"><span class="icon"></span>Read the Docs</a></li>
+          <li><a class="github" href="https://github.com/mozilla/thimble.mozilla.org"><span class="icon"></span>Contribute</a></li>
+          <li><a class="terms" href="https://beta.webmaker.org/#/legal"><span class="icon"></span>Terms of Use</a></li>
+          <li><a class="privacy" href="https://www.mozilla.org/en-us/privacy/websites/"><span class="icon"></span>Privacy Policy</a></li>
+        </ul>
+        <div class="project-info">
+          <a class="mozilla-logo" title="Mozilla" href="https://www.mozilla.org/en-us"><img alt="Mozilla" src="images/mozilla-logo.svg" /></a>
+          <p class="thimble-context">
+            Thimble is part of the Mozilla Learning Network. <br>Learn to teach like mozilla at <a href="http://teach.mozilla.org">teach.mozilla.org</a>.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
